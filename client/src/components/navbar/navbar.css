@@ -1,0 +1,30 @@
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+      flex: 3;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo{
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img{
+            width: 40px;
+            height: 40px;
+        }
+      }
+    }
+
+    .right {
+      flex: 2
+    }
+}
